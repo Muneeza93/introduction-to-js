@@ -1,5 +1,5 @@
 //my first javascript code!
-let name = "Muneeza"; // string literal
+/* let name = "Muneeza"; // string literal
 let age = 30; // number literal
 let isApproved = false; //Boolean literal can also be true
 let firstName = undefined;
@@ -32,4 +32,7 @@ function square(number) {
     return number * number;
 }
 
-console.log(square(2)); 
+console.log(square(2));
+*/
+
+//operators in javascript
