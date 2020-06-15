@@ -36,3 +36,41 @@ console.log(square(2));
 */
 
 //operators in javascript
+var number1 = 100;
+var number2 = 60;
+var number6 = (number1 < number2)? number1 : number2;
+console.log(number6);
+
+//functions
+function add (){
+    var number1 = 100;
+    var number2 = 60;
+    var number6 = number1 + number2;
+    console.log(number6);
+}
+
+add()
+
+function sub(){
+    var number1 = 100;
+    var number2 = 60;
+    var number6 = number1 - number2;
+    console.log(number6);
+}
+sub()
+
+function multi(){
+    var number1 = 100;
+    var number2 = 60;
+    var number6 = number1 * number2;
+    console.log(number6);
+}
+multi()
+
+function div(){
+   var number1 = 100;
+    var number2 = 60;
+    var number6 = number1 / number2;
+    console.log(number6); 
+}
+div()
