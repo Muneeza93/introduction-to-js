@@ -1,19 +1,17 @@
-//function with parameters
-function add(num1,num2){
-    var ans= num1 + num2;
-    console.log(ans);
-}
-
-//function with static values
+/*//function with static values
 function add2(){
     var num1 = 24, num2= 32;
     var ans= num1 + num2;
     console.log(ans);
 }
 
+//function with parameters
+function add(num1,num2){
+    var ans= num1 + num2;
+    console.log(ans);
+}
 
-
-/*add2();
+add2();
 add(24,32);
 add(33,20);
 add(10,20,10);
@@ -31,6 +29,12 @@ function sub(num1, num2){
 
 function diff(){
     var ans = add(10,15) + sub(20,9);
-    console.log(ans);
+    console.log(ans)
 }
-diff()
+function getDiff(){
+    var x = diff()
+    console.log(x)
+}
+getDiff();
+diff();
+
