@@ -43,6 +43,15 @@ function paye(){
     return net_pay;
     
 }
-paye();
+function loan(){
+    if (paye() <700000){
+        console.log('you are not entitled to any loan')
+
+    }
+    else{
+        console.log('you are entitled to a loan')
+    }
+}
+loan();
 
 
