@@ -3,7 +3,16 @@
     console.log(ans);
     return ans;
 }
+
+var sum1 = () =>{
+    var num1 = 20;
+    var num2 = 10;
+    var sum1 = num1 + num2;
+    console.log(ans);
+    return ans;
+}
 sum(10, 6);
+sum();
 
 //ECMA style of function
 var sub = () =>{

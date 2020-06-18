@@ -3,7 +3,7 @@ var name;
 name = " ozzy queen"
 //printing the variable name 
 console.log(name);
-//insert a line break
+//
 console.log("<br/>");
 //name is defined as a variable
 var name;
@@ -38,7 +38,7 @@ name = "mirembe agaba kwesi"
 //write some text directly to the HTML document
 document.write("My name is " +name +" "+ "and I am "+age+" "+" years old");
 
-//x is defined as a variable
+//declaring a  variable x
 var x;
 // write the value undefined to the HTML document
 document.write(x);
